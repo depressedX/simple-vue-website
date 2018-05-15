@@ -208,6 +208,7 @@
                 </div>
             </div>
         </footer>
+        <the-footer/>
     </div>
 </template>
 
@@ -228,10 +229,12 @@
     import ExpertDisplayBox from "../components/ExpertDisplayBox";
     import BlueButton from "../components/BlueButton";
     import ResearchDisplayBox from "../components/ResearchDisplayBox";
+    import TheFooter from "../components/TheFooter";
 
     export default {
         name: 'home',
         components: {
+            TheFooter,
             ResearchDisplayBox,
             BlueButton, ExpertDisplayBox, NoticeItem, NewsDisplayBox, PreviewBox, MyHr, TheNavBar, Slider
         },
