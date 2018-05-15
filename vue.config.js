@@ -1,3 +1,3 @@
 module.exports = {
-    baseUrl:'dist'
+    baseUrl:'simple-vue-website/dist/'
 }
